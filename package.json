@@ -1,6 +1,6 @@
 {
   "name": "epoch-days",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "epoch-days helps you to calculate days since 00:00:00 UTC on 1 January 1970",
   "main": "lib/index.js",
   "scripts": {
@@ -30,10 +30,10 @@
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-uglify": "^6.0.4"
+    "rollup-plugin-uglify": "^6.0.4",
+    "moment-timezone": "^0.5.27"
   },
   "dependencies": {
-    "date-fns": "^2.8.1",
-    "moment-timezone": "^0.5.27"
+    "date-fns": "^2.8.1"
   }
 }
