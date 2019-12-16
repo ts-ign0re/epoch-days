@@ -1,14 +1,21 @@
 {
-  "presets": [["env", { "modules": false }]],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false
+      }
+    ]
+  ],
   "plugins": [
     "transform-es2017-object-entries",
-    "transform-object-rest-spread"
+    "@babel/plugin-proposal-object-rest-spread"
   ],
   "env": {
     "test": {
       "presets": [
         [
-          "env",
+          "@babel/preset-env",
           {
             "targets": {
               "node": "current"
@@ -20,8 +27,8 @@
     "production": {
       "plugins": [
         "transform-es2017-object-entries",
-        "transform-object-rest-spread",
-        "external-helpers"
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-external-helpers"
       ]
     }
   }
