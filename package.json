@@ -1,8 +1,12 @@
 {
   "name": "epoch-days",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "epoch-days helps you to calculate days since 00:00:00 UTC on 1 January 1970",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tronin/epoch-days.git"
+  },
   "scripts": {
     "clean": "rimraf lib",
     "build": "npm run clean && BABEL_ENV=production rollup --config rollup.config.js",

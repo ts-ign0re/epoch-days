@@ -1,4 +1,7 @@
-import { getDay, addDays, setDay } from 'date-fns'
+import { setDay } from 'date-fns'
+
+import getDay from './getDay'
+import addDays from './addDays'
 
 const DAY_MS = 1000 * 60 * 60 * 24
 
