@@ -1,6 +1,6 @@
 {
   "name": "epoch-days",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "epoch-days helps you to calculate days since 00:00:00 UTC on 1 January 1970",
   "main": "lib/index.js",
   "repository": {
