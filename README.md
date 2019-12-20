@@ -1,3 +1,5 @@
+![Tests](https://github.com/tronin/epoch-days/workflows/Node%20CI/badge.svg)
+
 ## How to use
 
 ### Yarn
