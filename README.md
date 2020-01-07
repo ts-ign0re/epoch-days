@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/tronin/epoch-days.svg?style=svg)](https://circleci.com/gh/tronin/epoch-days)
+
 ![Tests](https://github.com/tronin/epoch-days/workflows/Node%20CI/badge.svg)
 
 ## How to use
