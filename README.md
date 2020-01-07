@@ -12,7 +12,7 @@
 
 ## API
 
-#### toEpochDate(millise)
+#### toEpochDate(millis)
 Returns number of a day
 
 `date: number`
